@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+.contenedor {
+    display: flex;
+    padding-left: 15%;
+    padding-top: 40px;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    background: none;
+}
+.logo_texto {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+.menu {
+    margin: 15px;
+    height: 50vh;
+    background-color: #1f98bd;
+    border-radius: 0 0 100px 100px;
+}
+.menu-icono {
+    position: absolute;
+    top: 30%;
+    left: 58%;
+    width: 28%;
+    height: 45%;
+    border-radius: 40px;
+}
+.navbar {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-right: 15%;
+    font-weight: 100;
+}
+.navbar li {
+    list-style: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.navbar li a {
+    display: block;
+    padding: 35px;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar li:hover {
+    background: #2cc5d9;
+    border-radius: 40px;
+}
+.texto {
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+.informacion-contacto {
+    border-radius: 80px;
+    width: 550px;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    left: 15%;
+    background-color: #f1f0f0;
+    padding: 50px;
+}
+.parrafo{
+    color: #999999;
+    padding-top: 40px;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.informacion1,
+.informacion2,
+.informacion3{
+    line-height: 25px;
+    padding-top: 40px;
+}
+.mp{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    border-radius: 40px;
+}
+.formulario2{
+    flex-direction: column;
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    top: 95%;
+    left: 55%;
+}
+.campo-1,
+.campo-2,
+.campo-3,
+.campo-4,
+.campo-5{
+    display: inline-block;
+    width: 35%;
+    height: 40px;
+    background-color: #e2e2e2;
+    border-radius: 30px;
+    border: #cfcfcf;
+    padding-left: 15px;
+    padding-top: 5px;
+    margin: 20px;
+}
+ 
+.campo-5{
+    width: 81%;
+    height: 100px;
+}
+.campo-6{
+    color: white;
+    font-weight: 700;
+    background-color: rgb(218, 94, 64);
+    width: 30%;
+    height: 20%;
+    border-radius: 30px;
+    border: #cfcfcf;
+    margin: 20px;
+}
+.campo-6:hover{
+    background-color: #2cc5d9;
+}
+.final {
+    position: relative;
+    top: 270px;
+    margin: 5px;
+    height: 20vh;
+    background-color: #1f98bd;
+    border-radius: 150px 150px 0 0 ;
+}
+.texto-final{
+    color: white;
+    text-align: center;
+    padding: 35px;
+    font-weight: 500;
+}

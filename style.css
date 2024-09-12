@@ -1,0 +1,430 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+.contenedor {
+    display: flex;
+    padding-left: 15%;
+    padding-top: 40px;
+}
+.logo {
+    width: 80px;
+    height: 80px;
+    background: none;
+}
+.logo_texto {
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+.menu {
+    margin: 15px;
+    height: 100vh;
+    background-color: #1f98bd;
+    border-radius: 0 0 100px 100px;
+}
+.menu-icono {
+    position: absolute;
+    top: 30%;
+    left: 58%;
+    width: 28%;
+    height: 45%;
+    border-radius: 40px;
+}
+.navbar {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-right: 15%;
+    font-weight: 100;
+}
+.navbar li {
+    list-style: none;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.navbar li a {
+    display: block;
+    padding: 35px;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar li:hover {
+    background: #2cc5d9;
+    border-radius: 40px;
+}
+.texto {
+    padding-top: 10%;
+    padding-left: 15%;
+    color: white;
+}
+.formulario {
+    padding-top: 2%;
+    padding-left: 15%;
+    border-radius: 100px;
+    border-color: #1f98bd;
+}
+input {
+    border-radius: 100px;
+    width: 25%;
+    padding: 15px;
+    border: #1f98bd;
+}
+.boton {
+    border-radius: 100px;
+    background-color: rgb(218, 94, 64);
+    color: white;
+    font-weight: 800;
+    padding: 15px;
+    border: #2cc5d9;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: #2cc5d9;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    margin: -4%;
+}
+.caja1,
+.caja2,
+.caja3,
+.caja4 {
+    text-align: center;
+    border-radius: 20px;
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    font-weight: 800;
+    margin: 10px;
+    box-shadow: 0px 0px 8px rgb(167, 164, 164);
+    border: 50px;
+}
+.caja1 {
+    background-color: white;
+}
+.caja2 {
+    background-color: white;
+}
+.caja3 {
+    background-color: white;
+}
+.caja4 {
+    background-color: white;
+}
+.nube{
+    width: 90px;
+    height: 85px;
+    padding: 5%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.nube:hover{
+    background-color: #1f98bd;
+}
+.usuario{
+    width: 90px;
+    height: 85px;
+    padding: 5%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.usuario:hover{
+    background-color: #1f98bd;
+}
+.repetir{
+    
+    width: 90px;
+    height: 85px;
+    padding: 5%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.repetir:hover{
+    background-color: #1f98bd;
+}
+.diseño{
+    width: 90px;
+    height: 85px;
+    padding: 5%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.diseño:hover{
+    background-color: #1f98bd;
+}
+.titulo_juegos{
+    position: relative;
+    top: 120px;
+    left: 15%;
+    justify-content: end;
+}
+.boton1{
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: rgb(218, 94, 64);
+    color: white;
+    font-weight: 800;
+    padding: 15px;
+    border: #2cc5d9;
+    position: absolute;
+    left: 65%;
+    top: 10%;
+}
+.boton1:hover {
+    background: #2cc5d9;
+}
+.productos{
+    position: relative;
+    top: 120px;
+    left: 5%;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10%;
+}
+.product-1,
+.product-2,
+.product-3,
+.product-4{
+    background-color: #d4d4d4;
+    width: 400px;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 10%;
+}
+.l1,
+.l2,
+.l3,
+.l4{
+    border-radius: 10%;
+}
+.texto-juego{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    cursor: pointer;
+}
+.dinero{
+    background-color: rgb(218, 94, 64);
+    border-radius: 30px;
+}
+.compra{
+    display: flex;
+    width: 50px;
+    border-radius: 50px;
+}
+.bolsa{
+    display: flex;
+    width: 50px;
+    border-radius: 50px;
+}
+.dinero:hover{
+    background-color: #2cc5d9;
+}
+.color-fondo{
+    background-color: #ebebeb;
+    position: relative;
+    top: 170px;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding-bottom: 9%;
+    border-radius: 150px;
+}
+.titulo_juegos2{
+    position: relative;
+    top: 100px;
+    left: 15%;
+    justify-content: end;
+}
+.boton2{
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: rgb(218, 94, 64);
+    color: white;
+    font-weight: 800;
+    padding: 15px;
+    border: #2cc5d9;
+    position: absolute;
+    left: 65%;
+    top: 10%;
+    
+}
+.boton2:hover {
+    background: #2cc5d9;
+}
+.productos2{
+    position: relative;
+    top: 120px;
+    left: 19%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: center;
+}
+.product-01,
+.product-02,
+.product-03,
+.product-04,
+.product-05{
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 10%;
+}
+.l5,
+.l6,
+.l7,
+.l8,
+.l9{
+    border-radius: 10%;
+}
+.texto-juego2{
+    padding: 5%;
+    text-align: center;
+}
+.EXPLORE{
+    text-align: center;
+    border-radius: 100px;
+    background-color: rgb(218, 94, 64);
+    color: white;
+    font-weight: 800;
+    padding: 15px;
+    border: rgb(218, 94, 64);
+}
+.EXPLORE:hover{
+    background: #1f98bd;
+}
+.categorias_texto{
+    position: relative;
+    top: 280px;
+    text-align: center;
+}
+.texto-juego3{
+    color: white;
+    padding: 10%;
+    text-align: center;
+}
+.productos3{
+    position: relative;
+    top: 300px;
+    left: 19%;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10%;
+    text-align: center;
+}
+.categoria-01,
+.categoria-02,
+.categoria-03,
+.categoria-04,
+.categoria-05{
+    background-color: #1f98bd;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 10%;
+}
+.g3,
+.g4,
+.g5,
+.g6,
+.g7{
+    border-radius: 10%;
+}
+.imagen-fondo{
+    position: relative;
+    top: 400px;
+    left: 35%;
+}
+.img6{
+    width: 500px;
+    height: 600px;
+    border-radius: 80px;
+}
+.subscribete{
+    width: 380px;
+    height: 400px;
+    background-color: #ebebeb;
+    position: relative;
+    bottom: 80px;
+    left: 12%;
+    padding: 80px;
+    border-radius: 30px;
+}
+.parrafo1{
+    color: rgb(141, 141, 141);
+    font-weight: 800;
+    line-height: 30px;
+    padding-top: 20%;
+}
+.subscribe2{
+    background-color: #ebebeb;
+    width: 410px;
+    height: 300px;
+    position: relative;
+    bottom: 510px;
+    left: 55%;
+    padding: 40px;
+    border-radius: 30px;
+}
+.formulario3{
+    padding-top: 50px;
+}
+.texto-1{
+    width: 50%;
+
+}
+.boton3{
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: rgb(218, 94, 64);
+    color: white;
+    font-weight: 800;
+    padding: 15px;
+    border: #2cc5d9;
+    position: relative;
+    top: 80px;
+}
+.boton3:hover {
+    background: #2cc5d9;
+}
+.boton5{
+    text-decoration: none;
+    border-radius: 100px;
+    background-color: rgb(218, 94, 64);
+    color: white;
+    font-weight: 800;
+    padding: 15px;
+    border: #2cc5d9;
+}
+.boton5:hover {
+    background: #2cc5d9;
+}
+.final {
+    position: relative;
+    top: 10px;
+    margin: 5px;
+    height: 20vh;
+    background-color: #1f98bd;
+    border-radius: 150px 150px 0 0 ;
+}
+.texto-final{
+    color: white;
+    text-align: center;
+    padding: 35px;
+    font-weight: 500;
+}
+
+
+
